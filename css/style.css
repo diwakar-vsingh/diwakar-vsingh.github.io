@@ -8835,14 +8835,23 @@ textarea.form-control {
 
 ul.ul-edu{list-style:none}
 ul.ul-edu li{position:relative;
-             padding:0px 10px 0px 3px
+             padding:0px 10px 0px 3px}
            @media (max-width: 767.98px) {
-            width: 100%; }}
+            width: 50%; }}
 ul.ul-edu li .description p{margin:0}
 ul.ul-edu li .description p.course{font-size:0.9rem}
-ul.ul-edu li .description p.institution{font-size:0.75rem;color:rgba(0,0,0,0.6)}
+                                  @media {
+                                    font-size:0.45rem
+                                  }
+ul.ul-edu li .description p.institution{font-size:0.75rem;
+                                        color:rgba(0,0,0,0.6)}
+                                        @media {
+                                           font-size:0.40rem
+                                        }
+
 .fa-ul{
   margin-left:1.5em}
+
 
 .fa-ul>li{
   position:relative}
@@ -8853,3 +8862,6 @@ ul.ul-edu li .description p.institution{font-size:0.75rem;color:rgba(0,0,0,0.6)}
   width:0rem;
   top:-0.75em;
   text-align:center}
+  @media {
+    top:-4.75em;
+  }
