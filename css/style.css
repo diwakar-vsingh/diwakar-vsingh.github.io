@@ -8116,7 +8116,7 @@ h1, h2, h3, h4, h5,
     letter-spacing: .1em; }
 
 .blog-entry {
-  margin-bottom: 6em; }
+  margin-bottom: 5em; }
   @media (max-width: 767.98px) {
     .blog-entry {
       margin-bottom: 4em; } }
@@ -8133,7 +8133,7 @@ h1, h2, h3, h4, h5,
     margin: 0 10px 0 0 }
     @media (min-width: 992px) {
       .blog-entry .img-2 {
-        padding: 6em 0; 
+        padding: 8em 0; 
         width: 50%; } }
   .blog-entry .text {
     position: relative;
@@ -8144,7 +8144,7 @@ h1, h2, h3, h4, h5,
         width: 100%; } }
     .blog-entry .text h3 {
       font-weight: 400;
-      font-size: 28px; }
+      font-size: 20px; }
       .blog-entry .text h3 a {
         color: #000000; }
     .blog-entry .text .meta-wrap {
