@@ -8127,13 +8127,21 @@ h1, h2, h3, h4, h5,
     @media (min-width: 992px) {
       .blog-entry .img {
         width: 50%; } }
+  .blog-entry .img-2 {
+    display: block;
+    width: 100%;
+    margin: 0 10px 0 0 }
+    @media (min-width: 992px) {
+      .blog-entry .img-2 {
+        padding: 6em 0; 
+        width: 50%; } }
   .blog-entry .text {
     position: relative;
     z-index: 0;
     width: 100%; }
     @media (min-width: 992px) {
       .blog-entry .text {
-        width: 50%; } }
+        width: 100%; } }
     .blog-entry .text h3 {
       font-weight: 400;
       font-size: 28px; }
@@ -8197,7 +8205,7 @@ textarea.form-control {
   font-size: 20px; }
 
 .ftco-section {
-  padding: 5em 1.8em;
+  padding: 5em 5em;
   position: relative; }
   @media (max-width: 991.98px) {
     .ftco-section {
