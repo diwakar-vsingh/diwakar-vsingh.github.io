@@ -7640,7 +7640,7 @@ h1, h2, h3, h4, h5,
     background: #fff;
     z-index: 0; }
   .hero-wrap .author-info, .hero-wrap .author-image {
-    width: 50%; }
+    width: 85%; }
     @media (max-width: 767.98px) {
       .hero-wrap .author-info, .hero-wrap .author-image {
         width: 30%; } }
@@ -8283,7 +8283,7 @@ textarea.form-control {
   padding: 0; }
   .ftco-social li {
     list-style: none;
-    margin: 0 10px 0 0;
+    margin: 0 0px 0 0;
     display: inline-block; }
     .ftco-social li a {
       height: 50px;
@@ -8759,3 +8759,23 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+ul.ul-edu{list-style:none}
+ul.ul-edu li{position:relative;
+             padding:0px 10px 0px 3px}
+ul.ul-edu li .description p{margin:0}
+ul.ul-edu li .description p.course{font-size:0.9rem}
+ul.ul-edu li .description p.institution{font-size:0.75rem;color:rgba(0,0,0,0.6)}
+
+.fa-ul{
+  margin-left:1.5em}
+
+.fa-ul>li{
+  position:relative}
+
+.fa-li{
+  position:relative;
+  left:-1.14rem;
+  width:0rem;
+  top:-0.75em;
+  text-align:center}
