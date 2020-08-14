@@ -7654,7 +7654,6 @@ h1, h2, h3, h4, h5,
       .hero-wrap .author-info {
         width: 70%; } }
     .hero-wrap .author-info h3.signature {
-      overflow-y: scroll;
       font-family: "Herr Von Muellerhoff", cursive; }
   .hero-wrap .author-image .author-img {
     width: 100%; }
