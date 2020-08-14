@@ -8204,7 +8204,7 @@ h1, h2, h3, h4, h5,
     width: 100%; }
     @media (min-width: 992px) {
       .blog-entry .img {
-        width: 50%; } }
+        width: 40%;} }
   .blog-entry .img-2 {
     display: block;
     height: 300px;
