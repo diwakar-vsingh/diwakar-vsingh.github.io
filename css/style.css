@@ -1,4 +1,4 @@
-/*!
+!
  * Bootstrap v4.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -515,7 +515,9 @@ pre {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  max-width: 100%; }
+  max-width: 100%;
+  padding-right: 5px;
+  padding-left: 105px; }
 
 .col-auto {
   -webkit-box-flex: 0;
@@ -7881,7 +7883,8 @@ h1, h2, h3, h4, h5,
       z-index: 0; }
       @media (max-width: 1199.98px) {
         .owl-carousel.home-slider .slider-item {
-          background-position: center center !important; } }
+          background-position: center center !important;
+          height: 50% } }
       .owl-carousel.home-slider .slider-item .overlay {
         position: absolute;
         top: 0;
@@ -7894,7 +7897,8 @@ h1, h2, h3, h4, h5,
         height: 750px; }
         @media (max-width: 767.98px) {
           .owl-carousel.home-slider .slider-item .slider-text {
-            text-align: center; } }
+            text-align: center;
+            height: 50% } }
         .owl-carousel.home-slider .slider-item .slider-text .author .img {
           width: 80px;
           height: 80px;
@@ -8354,7 +8358,7 @@ textarea.form-control {
   padding: 0; }
   .ftco-social li {
     list-style: none;
-    margin: 0 10px 0 0;
+    margin: 0 0px 0 0;
     display: inline-block; }
     .ftco-social li a {
       height: 50px;
@@ -8833,35 +8837,50 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
 
-ul.ul-edu{list-style:none}
+ul.ul-edu{list-style:none;
+          display: block;
+          /*margin-top: -1.5em;}*/
+
 ul.ul-edu li{position:relative;
-             padding:0px 10px 0px 3px}
+             padding:0px 0px 0px 0px;
+             margin-top: -1.5em;}
            @media (max-width: 767.98px) {
             width: 50%; }}
 ul.ul-edu li .description p{margin:0}
-ul.ul-edu li .description p.course{font-size:0.9rem}
-                                  @media {
-                                    font-size:0.45rem
-                                  }
+ul.ul-edu li .description p.course{
+                        font-size:0.85rem;
+                        padding:0px 0px 0px 0px}
 ul.ul-edu li .description p.institution{font-size:0.75rem;
-                                        color:rgba(0,0,0,0.6)}
-                                        @media {
-                                           font-size:0.40rem
-                                        }
+                                        color:rgba(0,0,0,0.6);
+                                        padding:0px 0px 0px 0px}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0rem;
+  margin-right: 0;
+  padding-left: 30px;
+}
+
+.fa-ul2{
+  display: block;
+  margin-left:-2.5em;
+  font-size:0.9rem;}
 
 .fa-ul{
-  margin-left:1.5em}
+  display: block;
+  margin-left:1.0em}
 
 
 .fa-ul>li{
   position:relative}
 
 .fa-li{
-  position:relative;
-  left:-1.14rem;
-  width:0rem;
-  top:-0.75em;
-  text-align:center}
-  @media {
-    top:-4.75em;
-  }
+  position:absolute;
+  left:-1.0rem;
+  width:0.5rem;
+  top:-0.5em;
+  /*text-align:center}*/
+  
